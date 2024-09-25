@@ -9,20 +9,13 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   xora,
   iphone,
-  tripguide,
+  sumz,
   threejs,
   github,
 } from "../assets";
@@ -229,6 +222,27 @@ const projects = [
     ],
     image: iphone,
     source_code_link: "https://project-iphone.vercel.app/",
+  },
+  {
+    name: "Sumz",
+    description:
+      "Sumz, an open-source article summarizer that transforms lengthy articles into clear and concise summaries, helping you save time and focus on key insights.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tialwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumz,
+    source_code_link: "https://sumz-project.vercel.app/",
   },
 ];
 

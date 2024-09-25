@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
